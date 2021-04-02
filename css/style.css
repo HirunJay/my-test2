@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size:xx-large;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+  }
+
+/* #row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} */
+
+#section1 {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 0 8px;
+    position: relative;
+   
+} 
+
+#section2 {
+    background-color: grey;  
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 0 8px;
+    position: relative;
+    
+} 
+
+#section3 {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 0 8px;
+    position: relative;
+    
+} 
+
+#h1 {
+    color: black;
+    background-color: lightcoral;
+    border: 1px solid black;
+    font-size: x-large;
+    font-weight: bold;
+    width: 110px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0px;
+}
+
+#h2 {
+    color: wheat;
+    background-color: brown;
+    border: 1px solid black;
+    font-size: x-large;
+    font-weight: bold;
+    width: 110px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0px;
+}
+
+#h3 {
+    color: black;
+    background-color: lightyellow;
+    border: 1px solid black;
+    font-size: x-large;
+    font-weight: bold;
+    width: 110px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0px;
+}
+
+#p1 {
+    padding: 2rem;
+    margin-top: 5px;
+}
+
+#p2 {
+    padding: 2rem;
+    margin-top: 5px;
+}
+
+#p3 {
+    padding: 2rem;
+    margin-top: 5px;
+}
+
+
+@media screen and (min-width:992px) {
+     
+    #section1, #section2, #section3 {
+        float: left;
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    
+    #section1, #section2 {
+        width: 45%;
+        float: left;  
+    }
+    #section3 {
+        width: auto;
+        clear: left;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #section1, #section2, #section3 {
+        width: auto;
+    }
+}
+
